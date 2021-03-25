@@ -11,3 +11,7 @@ fields:
   root_module:
     force_default_value: true
     default_value: "{{ cookiecutter.package_name|lower|replace('-', '_') }}"
+  author:
+    display_name: "author"
+  email:
+    display_name: "email"
