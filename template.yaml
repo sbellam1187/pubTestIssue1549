@@ -1,0 +1,12 @@
+fields: 
+  package_name:
+    name: "package_name"
+    display_name: "Package Name"
+    type: "string"
+    required: true
+    validations:
+        - type: "regex"
+          matcher: "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$"
+          helper_text: "Lowercase, kebab-case only."
+  root_module:
+    force_default_value: true
