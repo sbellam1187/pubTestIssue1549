@@ -1,4 +1,8 @@
 {
-    "component_id": "DefaultAppName",
-    "description": "Creates applications for xxx"
+    "component_id": "default-repo-name",
+    "package_name": "default-package",
+    "description": "A distributable python package",
+    "author": "default",
+    "email": "default",
+    "root_module": "{{ cookiecutter.package_name|lower|replace('-', '_') }}"
 }
