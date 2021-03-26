@@ -9,7 +9,7 @@ fields:
           matcher: "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$"
           helper_text: "Lowercase, kebab-case only."
   root_module:
-    force_default_value: false
+    force_default_value: true
     default_value: "{{ cookiecutter.package_name|lower|replace('-', '_') }}"
   author:
     display_name: "author"
