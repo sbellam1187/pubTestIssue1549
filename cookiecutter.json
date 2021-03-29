@@ -1,4 +1,5 @@
 {
     "component_id": "default-repo-name",
     "description": "A distributable python package",
+    "root_module": "{{ cookiecutter.package_name|lower|replace('-', '_') }}"
 }
