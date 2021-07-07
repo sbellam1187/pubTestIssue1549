@@ -14,3 +14,16 @@ fields:
     display_name: "author"
   email:
     display_name: "email"
+  radio_button:
+    type: radio
+    display_name: This should be a radio button
+    options: ["one", "two", "three"]
+  select_input:
+    type: select
+    display_name: This should be a select input
+    options: ["one", "two", "three"]
+  check_box:
+    type: checkbox
+    display_name: This should be a checkbox
+    options: ["one", "two", "three"]
+
