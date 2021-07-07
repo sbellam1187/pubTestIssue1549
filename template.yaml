@@ -24,6 +24,7 @@ fields:
     options: ["one", "two", "three"]
   check_box:
     type: checkbox
+    display_name: This should be a checkbox
     
 
 
