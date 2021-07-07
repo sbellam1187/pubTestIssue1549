@@ -25,5 +25,5 @@ fields:
   check_box:
     type: checkbox
     display_name: This should be a checkbox
-    options: [false, true]
+    options: ["unchecked", "checked"]
 
