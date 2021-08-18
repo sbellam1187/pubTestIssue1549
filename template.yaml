@@ -22,9 +22,14 @@ fields:
     type: select
     display_name: This should be a select input
     options: ["one", "two", "three"]
-  check_box:
-    type: checkbox
-    display_name: This should be a checkbox
+  auto_trigger_first_release:
+    display_name: "Opt Into Initial Release"
+    type: "select"
+    option: ["yes","no"]
+    default_value: "yes"
+  public_ingress:
+    display_name: "Create an ingress on cloud.aa.com"
+    type: "checkbox"
     
 
 
